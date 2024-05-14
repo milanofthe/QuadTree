@@ -328,7 +328,6 @@ class Cell:
     def get_leafs(self):        
         """
         return all cells from lowest refinement level (tree leafs)
-        list of cells sorted with z-ordering via morton number
         """
         cells = [self] if not self.children else []
         for child in self.children:
