@@ -11,8 +11,7 @@ from matplotlib.collections import PatchCollection
 from matplotlib.patches import Rectangle
 
 #import the quadtree 
-# from quadtree.quadtree import QuadTree
-from quadtree_cpp.quadtree import QuadTree
+from quadtree.quadtree import QuadTree
 ```
 
 
