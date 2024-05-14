@@ -44,11 +44,6 @@ QT.refine_edge(segments)
 QT.balance()
 ```
 
-
-```python
-#plot the quadtree
-```
-
 # Retrieve leaf cells from the Quadtree
 
 The `QuadTree` class offers some methods for easy leaf cell retrieval with `get_leafs`.
