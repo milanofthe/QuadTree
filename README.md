@@ -36,9 +36,9 @@ QT = QuadTree(bounding_box=[[-1,-1], [1,1]], n_initial_x=11, n_initial_y=11)
 
 ```python
 #refine quadtree based on the edges / segments of the polygon
-QT.refine_edge(segments, tol=0.01)
-QT.refine_edge(segments, tol=0.01)
-QT.refine_edge(segments, tol=0.01)
+QT.refine_edge(segments)
+QT.refine_edge(segments)
+QT.refine_edge(segments)
 
 #balance the quadtree
 QT.balance()
@@ -77,12 +77,15 @@ ax.set_xlabel("x")
 ax.set_ylabel("y")
 ```
 
+
+
+
     
 ![png](README_files/README_7_1.png)
     
 
 
-Or for example the cells with the centers inside a polygon with `get_leafs_inside_polygon`.
+ Or for example the cells with the centers inside a polygon with `get_leafs_inside_polygon`.
 
 
 ```python
@@ -144,6 +147,9 @@ ax.set_ylabel("y")
 
 
 
+
+
+
     
 ![png](README_files/README_11_1.png)
     
@@ -174,6 +180,9 @@ ax.set_ylim(-1, 1)
 ax.set_xlabel("x")
 ax.set_ylabel("y")
 ```
+
+
+
 
 
     
@@ -278,6 +287,9 @@ ax.set_xlabel("x")
 ax.set_ylabel("y")
 
 ```
+
+
+
 
     
 ![png](README_files/README_16_1.png)
