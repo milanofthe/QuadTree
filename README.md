@@ -78,20 +78,12 @@ ax.set_xlabel("x")
 ax.set_ylabel("y")
 ```
 
-
-
-
-    Text(0, 0.5, 'y')
-
-
-
-
     
 ![png](README_files/README_7_1.png)
     
 
 
- Or for example the cells with the centers inside a polygon with `get_leafs_inside_polygon`.
+Or for example the cells with the centers inside a polygon with `get_leafs_inside_polygon`.
 
 
 ```python
@@ -116,11 +108,6 @@ ax.set_ylim(-1, 1)
 ax.set_xlabel("x")
 ax.set_ylabel("y")
 ```
-
-
-
-
-    Text(0, 0.5, 'y')
 
 
 
@@ -158,12 +145,6 @@ ax.set_ylabel("y")
 
 
 
-
-    Text(0, 0.5, 'y')
-
-
-
-
     
 ![png](README_files/README_11_1.png)
     
@@ -194,13 +175,6 @@ ax.set_ylim(-1, 1)
 ax.set_xlabel("x")
 ax.set_ylabel("y")
 ```
-
-
-
-
-    Text(0, 0.5, 'y')
-
-
 
 
     
@@ -306,50 +280,7 @@ ax.set_ylabel("y")
 
 ```
 
-
-
-
-    Text(0, 0.5, 'y')
-
-
-
-
     
 ![png](README_files/README_16_1.png)
     
 
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-!jupyter nbconvert --ClearMetadataPreprocessor.enabled=True --ClearOutput.enabled=True --to markdown README.ipynb
-```
-
-    [NbConvertApp] Converting notebook README.ipynb to markdown
-    [NbConvertApp] Support files will be in README_files\
-    [NbConvertApp] Making directory README_files
-    [NbConvertApp] Making directory README_files
-    [NbConvertApp] Making directory README_files
-    [NbConvertApp] Making directory README_files
-    [NbConvertApp] Making directory README_files
-    [NbConvertApp] Writing 7882 bytes to README.md
-    
-
-
-```python
-
-```
