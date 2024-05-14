@@ -334,7 +334,6 @@ class Cell:
         for child in self.children:
             cells += child.get_leafs()
         return cells
-        # return sorted(cells, key=lambda cell: cell.morton)
 
 
     def get_neighbors(self):
